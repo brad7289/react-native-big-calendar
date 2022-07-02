@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   nowIndicator: {
     position: 'absolute',
     zIndex: 10000,
-    height: 2,
+    height: 200,
     width: '100%',
   },
 })
