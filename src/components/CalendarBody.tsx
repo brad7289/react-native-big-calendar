@@ -129,7 +129,7 @@ function _CalendarBody<T extends ICalendarEventBase>({
   return (
     <React.Fragment>
       {headerComponent != null ? <View style={headerComponentStyle}>{headerComponent}</View> : null}
-<!--       <ScrollView
+      <ScrollView
         style={[
           {
             height: containerHeight - cellHeight * 3,
@@ -142,7 +142,7 @@ function _CalendarBody<T extends ICalendarEventBase>({
         showsVerticalScrollIndicator={false}
         nestedScrollEnabled
         contentOffset={Platform.OS === 'ios' ? { x: 0, y: scrollOffsetMinutes } : { x: 0, y: 0 }}
-      > -->
+      > 
         <View
           style={[u['flex-1'], theme.isRTL ? u['flex-row-reverse'] : u['flex-row']]}
           {...(Platform.OS === 'web' ? panResponder.panHandlers : {})}
@@ -224,7 +224,7 @@ function _CalendarBody<T extends ICalendarEventBase>({
             </View>
           ))}
         </View>
-<!--       </ScrollView> -->
+       </ScrollView> 
     </React.Fragment>
   )
 }

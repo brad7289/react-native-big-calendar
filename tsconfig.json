@@ -9,11 +9,13 @@
     "noLib": false,
     "skipLibCheck": true,
     "jsx": "react",
-    "types": ["@types/node", "@types/jest"],
+    "types": [
+      "@types/node",
+      "@types/jest"
+    ],
     "lib": [],
     "keyofStringsOnly": true,
     "noEmit": true,
-
     /* Strict Type-Checking Options */
     "strict": true,
     "noImplicitAny": true,
@@ -22,17 +24,14 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     // "alwaysStrict": true,
-
     /* Additional Checks */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-
     /* Experimental Options */
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-
     /* Module Resolution Options */
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
